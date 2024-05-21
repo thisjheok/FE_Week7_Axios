@@ -2,7 +2,6 @@ import React from 'react';
 import { styled } from 'styled-components';
 import { Outlet } from 'react-router-dom';
 
-
 const BackGround = styled.div`
   width: 100%;
   background-color: white;
@@ -12,10 +11,8 @@ const BackGround = styled.div`
 
 const Wrapper = styled.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
   width: 100%;
-  position: relative;
 `;
 
 const Layout = () => {

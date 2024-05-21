@@ -16,10 +16,10 @@ const Wrapper = styled.div`
 `;
 
 export default function Card({ img, name, id}) {
-    const navigate = useNavigate();
   
+    const navigate = useNavigate();
     return (
-      <Wrapper id={id} onClick={() => navigate(`/user/{id}`)}>
+      <Wrapper id={id} onClick={() => navigate(`/user/${id}`)}>
         <Photo src={img} />
         <Margin height={10}/>
         <a>{name}</a>
